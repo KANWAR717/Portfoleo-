@@ -1,0 +1,105 @@
+
+.section {
+    background-color:#000 ; 
+    padding: 0 0 1cm 2cm;
+}
+.backhover{
+    margin-left: 10px;
+}
+.backhover h5{
+    font-size: 23px;
+    color: #fc9004;
+    margin-top: 0.5cm;
+    margin-bottom: 30px;
+}
+.backhover p{
+    font-size: 15px;
+}
+.section h2{
+    text-align: center;
+    color: #fc9004;
+    padding-top: 1cm;
+    font-variant: small-caps;
+    border-top: 1px solid gray;
+    margin-right: 2cm;
+    font-size: 50px;
+}
+.educationitem{
+    color: white;
+    margin-top: 1cm;
+    padding: 15px ;
+    border-radius: 10px;
+    
+}
+.year {
+    margin-top: -10px;
+}
+.discription{
+    margin-top: -10px;
+    font-style: italic;
+}
+.educationitem {
+    position: relative; 
+    overflow: hidden;   
+}
+.edudata{
+    display: flex;
+}
+
+.educationitem {
+    position: relative;
+    height: 250px;
+    width: 390px;
+    border-radius: 20px;
+    z-index: 1;        
+    color: white; 
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-size: 16px;     
+    background:#0f0f0f;
+   
+}
+
+.educationitem::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid #fc9004;
+    background-color:#252526 ;
+    border-radius: 20px;
+    transform: scaleY(0);
+    transform-origin: top center;
+    transition: transform 1000ms cubic-bezier(0.86, 0, 0.07, 1);
+    z-index: -1; 
+}
+.educationitem:hover::after {
+    transform: scaleY(1); 
+}  
+
+
+@media (max-width: 800px) {
+    .educationitem{
+    margin:0 0 0 -0.5cm;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: -2cm;
+    background-color: #000;
+    }
+  .educationitem h5{
+    font-size: 18px;
+  }
+    .edudata{
+        display: flex;
+        margin-top: -1cm ;
+        flex-direction: column;
+    }
+}
+
+/* For large screens (desktops and larger) */
+@media (min-width: 500px) {
+    
+   
+}

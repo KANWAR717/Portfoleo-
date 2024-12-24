@@ -1,0 +1,87 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 2.5cm;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .objective, .education {
+    margin-top: 20px;
+
+  }
+  .objective h5, .education h5,.skil h5,.Language h5,.hobbi h5,.detail h5{
+    border-bottom: 1px solid black; 
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  .sig{
+  margin-left: 90%;
+  }
+  /* Responsive Style */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    table th, table td {
+      font-size: 14px;
+      padding: 6px;
+    }
+  
+    .skills ul, .languages ul, .hobbies ul, .personal-details ul {
+      padding-left: 20px;
+    }
+  
+    .objective p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 20px;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 0 15px;
+    }
+  
+    table {
+      font-size: 12px;
+    }
+  
+    .skills ul li, .languages ul li, .hobbies ul li {
+      font-size: 14px;
+    }
+  
+    .objective p {
+      font-size: 12px;
+    }
+  
+    .signature {
+      font-size: 16px;
+    }
+  }
+  
+  

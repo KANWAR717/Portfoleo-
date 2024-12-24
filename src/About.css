@@ -1,0 +1,85 @@
+.backcolor{
+    background-color: #000;
+    color: white;
+    /* height: 780px; */
+    position: static;
+    margin-top: -4cm;
+ }
+  .backcolor h1{
+    color: rgb(255, 196, 0);
+  }
+.backcolor h1{
+    font-variant: small-caps;
+}
+.backcolor p{
+    color: #616060;
+    font-style: italic;
+}
+.Education{
+height: 600px;
+background-color: black;
+}
+.Education h1{
+    color: white;
+    padding-top: 2cm;
+}
+.Edu{
+    margin-left: 0.5cm;
+}
+.study{
+    margin-left: -.1cm;
+    height: 350px;
+    width: 360px;
+    background-color: black;
+}
+.back{
+    background-color: black;
+    border:  1px solid white;
+    color: white;
+}
+.back h5{
+    color: #f5bc42;
+}
+.study img{
+height: 100px;
+width: 100px;
+}
+.myinfo{
+    display: flex;
+    gap: 90px;
+}
+.myinfo span{
+gap :10px;
+margin-top: -20px;
+}
+  .myinfo-section {
+    flex: 1;
+    margin-right: 15px;
+  }
+  
+  .myinfo-section span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .myinfo-section p {
+    margin: 0;
+    font-style: italic;
+    color: #555;
+  }
+ .backcolor img {
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 8px 16px rgba(248, 246, 246, 0.1);
+  }
+  
+@media(max-width: 800px) {
+  .contant{
+    display: none;
+  }
+  .backcolor img{
+    width: 350px;
+    margin-left: 0.8cm;
+  }
+}

@@ -1,0 +1,120 @@
+/* 
+
+/* Footer container */
+.footer-container {
+    background-color: #333; 
+    color: #fff; 
+    padding: 30px  10px ;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-content p {
+    font-size: 1rem;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 10px;
+  }
+  .social-links img{
+  height: 40px;
+  margin-left: -20px;
+  }
+
+  .social-link {
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .social-link:hover {
+    color: #ff6a00; 
+    transform: translateY(-2px); 
+  }
+  
+  @media (max-width: 768px) {
+    .social-links {
+      flex-direction: row;
+      gap: 10px;
+    }
+    .social-link img{
+      height: 20px;
+    }
+    
+    .footer-content p {
+      font-size: 0.9rem;
+    }
+  }
+
+
+
+
+
+  /* Overall container for skills section */
+.skills-section {
+  padding: 130px;
+  background-color: #000;
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Title of the section */
+.skills-section h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #f86605;
+  font-style: inherit;
+  border-top: 1px solid gray;
+}
+
+/* List of skills progress bars */
+.skills-list {
+  margin-top: 20px;
+}
+
+/* Progress Bar Container */
+.progress-bar-container {
+  margin-bottom: 15px;
+  text-align: left;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Label for skill name and percentage */
+.progress-bar-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* Progress bar container */
+.progress-bar {
+  width: 100%;
+  background-color: #ddd;
+  height: 10px;
+  border-radius: 10px;
+}
+
+/* Animated progress bar */
+.progress {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 10px;
+  transition: width 1s ease-in-out;
+}
