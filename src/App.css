@@ -4,7 +4,6 @@
  box-sizing: border-box;
 }
 .splash-video video{
-  /* height: 650px; */
   width: 100%;
 }
 .items {
@@ -20,6 +19,8 @@
 .items h1{
   font-variant: small-caps;
   margin-top: 15px;
+  color: #fd9104;
+  text-shadow:  0px 0px 9px #fd9104;
 }
 .content {
   list-style-type: none;
